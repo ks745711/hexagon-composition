@@ -1,0 +1,106 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.div-block {
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-weight: 300;
+}
+
+p {
+  font-weight: 300;
+}
+
+
+.grid {
+  margin: 4vw;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  -ms-grid-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+
+
+
+
+
+
+
+.dg {
+  color: none;
+  text-shadow: none !important;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.dg.main.a {
+  width: 50vw;
+  min-width: 300px !important;
+}
+
+
+.close-button.close-bottom {
+  width: 50vw;
+  min-width: 300px !important;
+}
+
+.slider-fg {
+  background: #F98B88 !important;
+}
+
+.dg .cr.number {
+  border-left: 3px solid #F98B88 !important;
+}
+
+
+.dg .cr.number input[type=text] {
+  color: #F98B88 !important;
+}
+
+.dg .cr.boolean {
+  border-left: 3px solid #F98B88 !important;
+}
+
+.dg .c input[type=checkbox] {
+  background: #F98B88 !important;
+  border: #F98B88 !important;
+}
+
+
+
+
+
