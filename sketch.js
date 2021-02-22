@@ -29,7 +29,15 @@ function setup() {
   gui_setup.add(gui, 'vertical_speed', .1, 40);
   gui_setup.add(gui, 'extra_hexes', 4, 1000);
   
+var save_button = {
+        download_png: function () {
+            save("hexagons.png"); // give file name
+            print("saved png image");
+            noLoop(); // we just want to export once
+        }
+    };
 
+    gui_setup.add(save_button, 'download_png');
 
 }
 
