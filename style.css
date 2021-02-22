@@ -92,7 +92,7 @@ p {
 }
   
 .dg .cr.function {
-  border-left: 3px solid #F98B88;
+  border-left: 3px solid #F98B88 !important;
   border-right: 1px solid #2c2c2c ;
 }
 
