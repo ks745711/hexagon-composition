@@ -84,6 +84,7 @@ p {
 
 .dg .cr.number {
   border-left: 3px solid #F98B88 !important;
+  border-right: 1px solid #2c2c2c ;
 }
 
 
@@ -93,6 +94,7 @@ p {
 
 .dg .cr.boolean {
   border-left: 3px solid #F98B88 !important;
+  border-right: 1px solid #2c2c2c ;
 }
 
 .dg .c input[type=checkbox] {
@@ -100,6 +102,46 @@ p {
   border: #F98B88 !important;
 }
 
+
+.dg li:not(.folder) {
+    background: #FFFFFF;
+}
+
+
+  
+  .dg {
+    color: #000000;
+}
+  
+  .dg.main .close-button {
+    background: #FFFFFF;
+    border: 1px solid #2c2c2c !important;
+    }
+
+.dg.main .close-button:hover {
+    background: #F98B88;
+    border: 1px solid #2c2c2c !important;
+    }
+
+.dg .c .slider {
+    background: #ECECEC;
+}
+
+.dg .c .slider:hover {
+    background: #DEDEDE;
+}
+  
+  .dg .c input[type=text] {
+    background: #ECECEC;
+}
+   
+.dg .c:hover input[type=text] {
+    background: #DEDEDE;
+}
+
+.dg .cr.function:hover, .dg .cr.boolean:hover {
+    background: #DEDEDE;
+   
 
 
 
