@@ -92,6 +92,7 @@ p {
 }
   .dg .cr.function {
     border-left: 3px solid #F98B88;
+    border-right: 1px solid #2c2c2c ;
 
 .dg .c input[type=checkbox] {
   background: #F98B88 !important;
